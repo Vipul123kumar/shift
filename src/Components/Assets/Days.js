@@ -1,0 +1,46 @@
+const Data=[
+    {
+        day:"MON",
+        date:"22",
+        hour:"12h",
+        pay:"$1.2k"
+    },
+      {
+        day:"TUE",
+        date:"23",
+        hour:"12h",
+        pay:"$1.2k"
+    },
+      {
+        day:"WED",
+        date:"24",
+        hour:"12h",
+        pay:"$1.2k"
+    },
+      {
+        day:"THU",
+        date:"25",
+        hour:"12h",
+        pay:"$1.2k"
+    },
+      {
+        day:"FRI",
+        date:"26",
+        hour:"12h",
+        pay:"$1.2k"
+    },
+      {
+        day:"SAT",
+        date:"22",
+        hour:"12h",
+        pay:"$1.2k"
+    },
+      {
+        day:"SUN",
+        date:"28",
+        hour:"12h",
+        pay:"$1.2k"
+    }
+
+]
+export default Data;
