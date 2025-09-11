@@ -1,32 +1,42 @@
 import React from 'react'
 
 
-import Dashboard from '../Components/Assets/dashboard.svg';
-import Employe from '../Components/Assets/employee-self-serve-portal-people-icon-png--m2i8N4N4A0b1m2H7.jpg';
+import Dashboard from '../Components/Assets/newdashboard.png';
+import Employe from '../Components/Assets/Employe.png';
 import Report from '../Components/Assets/report.jpg';
 import Shift from '../Components/Assets/shift.png';
 import Setting from '../Components/Assets/setting.png';
+import arrow from '../Components/Assets/iconmd.png'
+ import entie from '../Components/Assets/Entite.png'
 const Sidebar = () => {
   return (
-    <div className='w-60 bg-gray-800  h-100vh p-5 '>
-         <div className='pl-24'>Minimize </div>
-         <div> 
-            <items className="flex flex-col text-gray-300 gap-4 m-4  ">
-                <item className="flex flex-row gap-2"> <span><img src={Dashboard} alt='dash' width={50}/> </span> Dashboard</item>
-                <item className=" flex flex-row bg-gray-400 text-white gap-2 rounded-3xl justify-center items-center  ">  <span><img src={Shift} alt='dash' width={50}/></span> Shifts</item>
-                <item className="flex flex-row gap-2 ">  <span><img src={Employe} alt='dash' width={50}/></span> Employees</item>
-                <item className="flex flex-row gap-2 ">  <span><img src={Report} alt='report' width={50}/></span> Reports</item>
-                <item className="flex flex-row gap-2 ">  <span><img src={Dashboard} alt='item1' width={50}/></span> Item 5</item>
-                <item className="flex flex-row gap-2 ">  <span><img src={Dashboard} alt='item6' width={50}/></span> Item 6</item>
-                <item className="flex flex-row gap-2">  <span><img src={Dashboard} alt='item7' width={50}/></span> Item 7</item>
-                <item className="flex flex-row gap-2">  <span><img src={Dashboard} alt='item8' width={50}/></span>Item 8</item>
-                <item className="flex flex-row gap-2">  <span><img src={Dashboard} alt='item9' width={50}/></span>Item 9</item>
-                <item className="flex flex-row gap-2">  <span><img src={Dashboard} alt='item10' width={50}/></span> Item 10</item>
-                <item className="flex flex-row gap-2">  <span><img src={Setting}   alt='setting' width={50}/></span> Settings</item>
-                
+    <div className='w-full h-screen bg-[#1E182A] h-full justify-between flex flex-col  '> 
+         <div className='  w-[160px] h-[44px]  p-[4px] gap-[16px] rounded-tl-[8px] rounded-tr-[8px]  '> <div className='flex  rounded-[14px]  px-[66px] py-[6px] gap-[8px] bg-[#1E182A] text-right items-center  '>  <p className='w-[40px] h-[24px] text-[10px] leading-[24px]  text-natural-400 items-center font-semibold'>Minimize </p> <img src={arrow} alt='arr' className='w-[16px] h-[16px] items-center  '/> </div> 
+          </div>
+        
+            <ul className="flex flex-col w-[160px] h-full p-[4px] gap-[1px] ">
+               
 
-            </items>
-         </div>
+                 <li className="flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[12px] py-8 px-8  items-center justify-center ">  <div className='  flex gap-[12px] '> <img src={Dashboard} alt='item8' className='h-[12px] w-[12px] mt-3 mr-5'/> <p className='font-normal text-[#9890A6] text-[14px] mt-2 mr-4 '>Dashboard</p> </div>  </li>
+                <li className="flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[12px] py-8 px-8  items-center justify-center bg-[#484155] ">  <div className='  flex gap-[12px] '> <img src={Shift} alt='item8' className='h-[12px] w-[12px] mt-3 mr-5'/> <p className='font-manrope text-[#FFFFFF]  text-[14px] font-bold mt-2 mr-4 '>Shifts</p> </div> </li>
+                <li className=" flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[12px] py-8 px-8  items-center justify-center ">  <div className=' flex gap-[12px]'>  <img src={Employe} alt='item8' className='h-[12px] w-[12px] mt-3 mr-2'/> <p className='font-normal text-[#9890A6] text-[14px] mt-2 mr-4 '>Employees</p> </div> </li>
+                <li className="flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[12px] py-8 px-8  items-center justify-center  ">   <div className=' flex gap-[12px]'>  <img src={Report} alt='item8' className='h-[12px] w-[12px] mt-3 mr-4'/> <p className='font-normal text-[#9890A6] text-[14px] mt-2 mr-4 '>Reports</p> </div></li>
+
+                <li className="flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[12px] py-8 px-8  items-center justify-center  ">  <div className=' flex gap-[12px]'>  <img src={Dashboard} alt='item8' className='h-[12px] w-[12px] mt-3 mr-5'/> <p className='font-normal text-[#9890A6] text-[14px] mt-2 mr-4 '>Item5</p> </div></li>
+                <li className="flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[12px] py-8 px-8  items-center justify-center  ">  <div className=' flex gap-[12px]'>  <img src={Dashboard} alt='item8' className='h-[12px] w-[12px] mt-3 mr-5'/> <p className='font-normal text-[#9890A6] text-[14px] mt-2 mr-4 '>Item6</p> </div></li>
+                <li className="flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[12px] py-8 px-8  items-center justify-center ">   <div className=' flex gap-[12px]'>  <img src={Dashboard} alt='item8' className='h-[12px] w-[12px] mt-3 mr-5'/> <p className='font-normal text-[#9890A6] text-[14px] mt-2 mr-4 '>Item7</p> </div></li>
+                <li className="flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[12px] py-8 px-8  items-center justify-center ">   <div className=' flex gap-[12px]'>  <img src={Dashboard} alt='item8' className='h-[12px] w-[12px] mt-3 mr-5'/> <p className='font-normal text-[#9890A6] text-[14px] mt-2 mr-4 '>Item8</p> </div></li>
+                <li className="flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[12px] py-8 px-8  items-center justify-center ">  <div className=' flex gap-[12px]'>  <img src={Dashboard} alt='item8' className='h-[12px] w-[12px] mt-3 mr-5'/> <p className='font-normal text-[#9890A6] text-[14px] mt-2 mr-4 '>Item8</p> </div></li>
+                <li className="flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[12px] py-8 px-8  items-center justify-center ">   <div className=' flex gap-[12px]'>  <img src={Dashboard} alt='item8' className='h-[12px] w-[12px] mt-3 mr-5'/> <p className='font-normal text-[#9890A6] text-[14px] mt-2 mr-4 '>Item9</p> </div></li>
+                <li className="flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[12px] py-8 px-8  items-center justify-center ">   <div className=' flex gap-[12px]'>  <img src={Dashboard} alt='item8' className='h-[12px] w-[12px] mt-3 mr-5'/> <p className='font-normal text-[#9890A6] text-[14px] mt-2 mr-4 '>Item10</p> </div></li>
+                 <li className="flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[12px] py-8 px-8  items-center justify-center ">   <div className=' flex gap-[12px]'>  <img src={Setting} alt='item8' className='h-[12px] w-[12px] mt-3 mr-5'/> <p className='font-normal text-[#9890A6] text-[14px] mt-2 mr-4 '>Settings</p> </div></li>
+               <li className="flex flex-row border border-red-900 max-w-[192px] h-[44px] gap-[10px] py-12  mt-20 items-center justify-center ">   <div className=' flex gap-[10px]'>  <img src={entie} alt='entile' className='h-[36px] w-[36px] mt-3 mr-5'/> <p className='font-normal text-[#9890A6] text-[14px] mt-4 mr-4 text-[#FFFFFF] '>Entie LD</p> </div></li>
+
+            </ul>
+          {/* <div className='  w-[160px] h-[60px] gap-[10px] pl-[16px] pt-[12px] pr-[12px] pb-[12px] rounded-bl-[8px] rounded-br-[8px] border border-white mt-5 flex items-center'>
+            <img src={entie} alt='Entie' className='h-[36px] w-[36px]'/>
+            <p>Entie LD</p>
+            </div> */}
     </div>
   )
 }
@@ -73,21 +83,21 @@ export default Sidebar
 //       {/* Navigation */}
 //       <nav className="flex-1 p-4">
 //         <ul className="space-y-2">
-//           {navigationItems.map((item) => {
-//             const Icon = item.icon;
+//           {navigationItems.map((li) => {
+//             const Icon = li.icon;
 //             return (
-//               <li key={item.label}>
+//               <li key={li.label}>
 //                 <Button
-//                   variant={item.active ? "default" : "ghost"}
+//                   variant={li.active ? "default" : "ghost"}
 //                   className={`w-full justify-start space-x-3 ${
-//                     item.active 
+//                     li.active 
 //                       ? "bg-primary text-primary-foreground" 
 //                       : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
 //                   }`}
-//                   data-testid={`nav-${item.label.toLowerCase()}`}
+//                   data-testid={`nav-${li.label.toLowerCase()}`}
 //                 >
 //                   <Icon className="w-5 h-5" />
-//                   <span>{item.label}</span>
+//                   <span>{li.label}</span>
 //                 </Button>
 //               </li>
 //             );

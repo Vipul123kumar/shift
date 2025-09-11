@@ -15,14 +15,16 @@ function App() {
   const [showAdvancedFilter, setShowAdvancedFilter] = useState(false);
 
 return (
-  <div className=" flex bg-gray-100 w-screen "  >
-
-    <Sidebar />
+  <div className=" flex    bg-[#1E182A]" >
+   <div className=' bg-[#1E182A] '>
+      <Sidebar />
+   </div>
+   
     
-    <div className='flex-1 flex flex-col'>
+    <div className='flex-1 flex flex-col bg-gray-100 rounded-lg m-2 '>
       <FilterBar onOpenAdvancedFilter={()=>setShowAdvancedFilter(true)} />
       <Daybar />
-      <div className='p-6 gap-6 '>
+      <div className='p-6 gap-6 h-full '>
         {staffData.map((section, idx) => (
           <StaffSection key={idx} {...section} />
         ))}
