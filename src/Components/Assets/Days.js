@@ -30,13 +30,13 @@ const Data=[
         pay:"$1.2k"
     },
       {
-        day:"SAT",
+        day:"MON",
         date:"22",
         hour:"12h",
         pay:"$1.2k"
     },
       {
-        day:"SUN",
+        day:"TUE",
         date:"28",
         hour:"12h",
         pay:"$1.2k"
